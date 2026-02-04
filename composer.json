@@ -2,7 +2,6 @@
   "name": "rosolovsky/moonshine-gmap-field",
   "description": "Google Map field for MoonShine 4",
   "type": "library",
-  "version": "1.0",
   "license": "MIT",
   "authors": [
     {
