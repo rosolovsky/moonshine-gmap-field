@@ -1,11 +1,7 @@
 <div x-data="map">
     <div class="z-0 w-full p-6 text-gray-900 md:w-1/2 h-96 rounded-md" id="map"></div>
-
     <x-moonshine::form.input type="hidden" name="{{ $column }}_lat" x-model="lat" />
     <x-moonshine::form.input type="hidden" name="{{ $column }}_lng" x-model="lon" />
-    <p class="text-sm text-center text-gray-500 mt-2">
-        Клікніть на карті або перемістіть маркер для встановлення координат
-    </p>
 </div>
 
 <script>
